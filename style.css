@@ -1,0 +1,103 @@
+div{
+    overflow: auto;
+    //border: 1px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: Calibri,Verdana,sans-serif;
+}
+
+.div-icon{
+    font-family: 'Open Sans Condensed',Verdana,sans-serif;
+    color: white;
+    font-size: 23pt;
+    font-style: oblique;
+}
+
+.div-le{
+    margin: 0% 10% 0% 20%;
+    float: left;
+}
+
+.div-loginMenu{
+    //margin-top: 25px;
+    background: rgba(236,152,126,0.5);
+}
+
+.div-search{
+    width: 60%;
+    float: left;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.div-basket{
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin:auto;
+}
+
+.div-login{
+    position: relative;
+    transform: translateY(35%);
+    text-align: center;
+    font-size: 14pt;
+    overflow: hidden;
+}
+
+.div-menucontainer{
+    float: left;
+    width:25%;
+}
+
+.div-topmenubar{
+    padding: 0;
+}
+
+.div-topmenu{
+    background-color: #EC987E;
+}
+
+.button-shopping{
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background: transparent;
+    outline:none;
+}
+
+.button-shopping img{
+    height: 40%;
+    width: 40%
+}
+
+.button-TopMenu{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    border:none;
+    background: transparent;
+    outline:none;
+}
+
+.button-TopMenu img{
+    height:40%;
+    width:40%;
+}
+
+.button-TopMenu p{
+    color: #E2E2E3;
+}
+
+.p-topMenu{
+    margin-top: 10px;
+}
